@@ -48,10 +48,15 @@ python monte_carlo_pi.py [sample size]
 First we draw a unit square which has an Area of ![area of square](https://latex.codecogs.com/gif.latex?A_%7Bsquare%7D%20%3D%201). Then we draw a circle inside this square with a radius of 0.5. The area of this circle is 
 ![area of circle](https://latex.codecogs.com/gif.latex?A_%7Bcircle%7D%20%3D%20%5Cfrac%7B%5Cpi%7D%7B4%7D).
 
+
 Now we create n random points inside the square. With the ratio of the number of points inside the circle to the total number of points an approximation of &#960; can be computed since:
 
-![ratio area circle to area square](https://latex.codecogs.com/gif.latex?%5Cfrac%7BA_%7Bcircle%7D%7D%7BA_%7Bsquare%7D%7D%20%3D%20%5Cfrac%7B%5Cpi%5Cfrac%7B1%7D%7B4%7D%7D%7B1%7D%20%3D%20%5Cfrac%7B%5Cpi%7D%7B4%7D)
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?%5Cfrac%7BA_%7Bcircle%7D%7D%7BA_%7Bsquare%7D%7D%20%3D%20%5Cfrac%7B%5Cpi%5Cfrac%7B1%7D%7B4%7D%7D%7B1%7D%20%3D%20%5Cfrac%7B%5Cpi%7D%7B4%7D">
+</p>
 
 and thus
 
-![formula to estimate pi](https://latex.codecogs.com/gif.latex?%5Cpi%5C%20%5Capprox%5C%204%5C%20*%5C%20%5Cfrac%7B%20number%5C%20of%5C%20points%5C%20inside%5C%20the%5C%20circle%7D%7Btotal%5C%20number%5C%20of%5C%20points%7D).
+<p align="center">
+  <img src="https://latex.codecogs.com/gif.latex?%5Cpi%5C%20%5Capprox%5C%204%5C%20*%5C%20%5Cfrac%7B%20number%5C%20of%5C%20points%5C%20inside%5C%20the%5C%20circle%7D%7Btotal%5C%20number%5C%20of%5C%20points%7D">
+</p>
