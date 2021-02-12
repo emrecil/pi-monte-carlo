@@ -39,7 +39,7 @@ To start the program run the following command
 python monte_carlo_pi.py
 ```
 
-By default 1000 random points will be generated. You can specify a custom sample size as an argument:
+By default 10000 random points will be generated. You can specify a custom sample size as an argument:
 ```bash
 python monte_carlo_pi.py [sample size]
 ```
